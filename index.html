@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Actions, Big Changes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+        }
+
+        nav {
+            background-color: #2e4161;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 1.1;
+        }
+
+        nav a:hover {
+            background-color: #f4a261;
+            border-radius: 5px;
+        }
+
+        .section {
+            width: 100;
+            min-height: 100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position:relative;
+        }
+
+        #home {
+			background-image: url('poverty.jpg');
+            background-size: cover;
+            background-position: center;
+            padding-top:60px; 
+        }
+
+        #about {
+            background-color:white;
+            padding-top: 60px; 
+        }
+
+        h2 {
+            font-size:5;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        p {
+            font-size: 2;
+            line-height: 1.6;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .content {
+            max-width:60%;
+            text-align:center;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #2e4161;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div id="home" class="section">
+        <div class="content">
+            <h2>Small Actions, Big Changes</h2>
+            <p>We aim to raise awareness about poverty and inspire action to help those in need. Join us in making a difference, one small action at a time!</p>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <div class="content">
+            <h2>Our Advocacy</h2>
+            <p>Poverty is a widespread issue, impacting millions worldwide. Families struggle to meet basic needs, often lacking food, clean water, and shelter.</p>
+            <p>Our mission is to advocate for those who cannot speak for themselves, to provide them with access to education, healthcare, and opportunities to break the cycle of poverty.</p>
+            <p>We believe in community-driven change. By supporting small businesses, empowering individuals, and fostering education, we can create a sustainable future.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Poverty Advocacy | A.B Doysabas</p>
+    </footer>
+
+</body>
+</html>
